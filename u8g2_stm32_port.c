@@ -5,6 +5,7 @@
  *      Author: Maciej Wolosewicz
  */
 
+#include <assert.h>
 #include <stdio.h>
 #include <u8g2_stm32_port.h>
 #include <string.h>

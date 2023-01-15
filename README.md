@@ -5,6 +5,8 @@ There is a nice graphic library
 
 Fortunately the [u8g2](https://github.com/olikraus/u8g2 "u8g2 Github page") library, it's designed in a way that allows for quite easy porting to other platforms, which is nicely described on the page [Porting to new MCU platform](https://github.com/olikraus/u8g2/wiki/Porting-to-new-MCU-platform "Porting to new MCU platform").
 
+![Nucelo board photo](docs/img/board_photo.jpg?raw=true "Working SSD1306 with STM32L432")
+
 ## What was implemented
 Three functions were implemented:
 * `stm32_u8g2_port_module_init` - which is used to set I2C device which should be used during communication with SSD1306 display.
